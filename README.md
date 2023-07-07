@@ -39,9 +39,6 @@ Use the following login credentials:
 - Username: Admin
 - Password: Admin
 
-## Contributing
-
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
 
 ## Contributors
 - [Nourhan Ahmed](https://github.com/nourhan002) 
@@ -50,3 +47,4 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 - [Hazem Raafat](https://github.com/EngHazemRaafat)
 - [Khaled Badr](https://github.com/KhaledBadr07)
 
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
