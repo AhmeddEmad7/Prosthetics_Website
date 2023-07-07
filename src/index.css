@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap");
+
+:root {
+  --primary: #131720;
+  --secondary: #6d15df;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  color: #333;
+  font-family: "Poppins";
+  background: #f2f2f2;
+  background-image: url(https://images.pexels.com/photos/6153752/pexels-photo-6153752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+  /* height: 100vh; */
+  /* overflow: auto; */
+  background-attachment: fixed;
+}
+nav {
+  background: var(--primary);
+  padding: 10px 20px;
+  text-align: center;
+}
+nav a {
+  color: #f2f2f2;
+  margin: 10px;
+  display: inline-block;
+}
+nav h1 {
+  color: #fff;
+}
+.page {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+
+/* forms */
+form {
+  background: #fff;
+  padding: 20px;
+  max-width: 480px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin: 10px 0 20px 0;
+}
+form button {
+  background: var(--primary);
+  color: #fff;
+  border: 0;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+/* Tables */
+
+table {
+  background-color: #faf7f7d5;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+thead th {
+  border-bottom: 2px solid #dededee7;
+  white-space: nowrap;
+}
+
+td {
+  border-bottom: 1px solid #dedede;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+
+tbody tr:nth-child(odd) {
+  background-color: #e7e0e0;
+}
+
+table th:hover,
+table td:hover {
+  color: #0c75aa8e;
+  background-color: #e0dedea9;
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+
+}
+
+.tablesubj {
+  text-align: center;
+  background-color: #131720;
+  color: #f2f2f2;
+  font-size: 25px;
+}
+
+.material-icons {
+  color: #131720;
+}
+
+/*   */
+
+.createDoctor {
+  text-align: right;
+}
+
+.createEquippedBy {
+  text-align: right;
+}
+
+.createSuppliedBy {
+  text-align: right;
+}
+
+.createOrder {
+  text-align: right;
+}
+
+.createPatient {
+  text-align: right;
+}
+
+.createProsthetic {
+  text-align: right;
+}
+
+.createSupplier {
+  text-align: right;
+}
+
+.createOperation {
+  text-align: right;
+}
+
+.createButton {
+  color: #111;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+}
+
+.add {
+  margin-top: 5px;
+}
+
+.add:hover {
+  color: #1979a9;
+}
+
+.createButton {
+  position: relative;
+  top: -38px;
+  background-color: #131720;
+  color: #f2f2f2;
+  font-family: Poppins;
+}
+
+.createButton {
+  left: -60px;
+  width: 12%;
+}
+
+.loginButton {
+  background-color: #131720;
+  color: #f2f2f2;
+  font-family: Poppins;
+  border-radius: 20px;
+  width: 150px;
+  margin-left: 150px;
+}
+
+.loginButton:hover {
+  color: #1979a9;
+}
+
+input:hover::placeholder {
+  color: #1979a9;
+}
+
+#searchLabel {
+  border-color: black;
+  display: inline-block;
+  border: 0.003px solid #ccc;
+  border-radius: 4px;
+  padding: 2px;
+  position: relative;
+  top: -35px;
+  background-color: #111;
+  left: -20px;
+}
+
+.createButton:hover {
+  color: #1979a9;
+}
+
+.headerButtons :hover {
+  color: #1979a9;
+}
+
+
+.droplist body {
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.droplist input {
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.droplist label {
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.droplist select {
+  font-family: "Poppins";
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 655px;
+}
+
+.droplist body {
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.droplist input {
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.droplist label {
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.droplist select {
+  font-family: "Poppins";
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.plslogin, .login-form {
+  animation: fadeIn 2s ease-in-out;
+}
+
+#Gender {
+  font-size: 655px;
+  margin-top: 9px;
+  margin-bottom: 17px;
+}
