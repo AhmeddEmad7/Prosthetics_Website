@@ -1,6 +1,8 @@
 # Hospital Admin Prosthetics Website 
 
-![Project Logo](https://img.icons8.com/?size=512&id=wczHfRAie7VS&format=png)
+<p align="center">
+  <img src="https://img.icons8.com/?size=256&id=wczHfRAie7VS&format=png" alt="Project Logo" width="256px" height="256px">
+</p>
 
 A professional admin prosthetics website developed for a hospital to efficiently manage their database. The website allows for seamless CRUD (Create, Read, Update, Delete) operations on the database, including managing suppliers, doctors, patients, surgeries, prosthetics, orders, and their relationships.
 
