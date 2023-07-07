@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { useCookies } from "react-cookie";
 
 // pages
 import Supplier from "./pages/Supplier";
@@ -29,23 +30,22 @@ import CreateDoctor from "./pages/CreateDoctor";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [cookies, setCookie] = useCookies(["isLoggedIn"]);
 
   const handleLogin = () => {
     setIsLoggedIn(true);
-    localStorage.setItem("isLoggedIn", "true");
+    setCookie("isLoggedIn", true, { path: "/" });
   };
 
   const handleLogout = () => {
     setIsLoggedIn(false);
-    localStorage.setItem("isLoggedIn", "false");
+    setCookie("isLoggedIn", false, { path: "/" });
   };
 
   useEffect(() => {
-    const storedIsLoggedIn = localStorage.getItem("isLoggedIn");
-    if (storedIsLoggedIn === "true") {
-      setIsLoggedIn(true);
-    }
-  }, []);
+    const storedLoginStatus = cookies.isLoggedIn === "true";
+    setIsLoggedIn(storedLoginStatus);
+  }, [cookies.isLoggedIn]);
 
   return (
     <BrowserRouter>
