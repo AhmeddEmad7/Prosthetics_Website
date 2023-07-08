@@ -30,7 +30,7 @@ A professional admin prosthetics website developed for a hospital to efficiently
 4. Run the project and view it in browser: <br> **npm start**
 
 **Or you can simply visit our website from the link below:** <br>
-[Click here](https://hospital-admin-prosthetics-website.vercel.app)
+[Click here](https://hospital-admin-prosthetics-website-ahmeddemad7.vercel.app)
 
 
 ## Usage
