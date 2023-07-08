@@ -248,7 +248,7 @@ input:hover::placeholder {
   font-family: "Poppins";
   margin-bottom: 10px;
   margin-top: 10px;
-  font-size: 655px;
+/*   font-size: 655px; */
 }
 
 .droplist body {
