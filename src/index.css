@@ -293,7 +293,7 @@ input:hover::placeholder {
 }
 
 #Gender {
-  font-size: 655px;
+/*   font-size: 655px; */
   margin-top: 9px;
   margin-bottom: 17px;
 }
